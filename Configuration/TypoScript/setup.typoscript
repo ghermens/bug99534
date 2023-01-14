@@ -1,0 +1,24 @@
+@import 'EXT:fluid_styled_content/Configuration/TypoScript/setup.typoscript'
+
+config >
+config {
+	disableAllHeaderCode = 1
+	disableBodyTag = 1
+	disableCharsetHeader = 1
+	disableLanguageHeader = 1
+	doctype = none
+	admPanel = 0
+	debug = 0
+	xhtml_cleaning = none
+	disablePrefixComment = 1
+	no_cache = 1
+}
+
+page >
+page = PAGE
+page {
+	10 = COA_INT
+	10 {
+		10 < tt_content.list.20.bug99534_demo
+	}
+}

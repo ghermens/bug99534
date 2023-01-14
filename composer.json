@@ -1,0 +1,27 @@
+{
+  "name": "amazing/bug99534",
+  "type": "typo3-cms-extension",
+  "description": "Demonstrates bug 99534: Content-Type forced to text/html when streaming file",
+  "license": "GPL-2.0-or-later",
+  "authors": [
+    {
+      "name": "Gregor Hermens",
+      "email": "gregor.hermens@a-mazing.de",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "typo3/cms-core": "^11.5 | ^12",
+    "typo3/cms-fluid-styled-content": "^11.5 | ^12"
+  },
+  "autoload": {
+    "psr-4": {
+      "Amazing\\Bug99534\\": "Classes/"
+    }
+  },
+  "extra": {
+    "typo3/cms": {
+      "extension-key": "bug99534"
+    }
+  }
+}
