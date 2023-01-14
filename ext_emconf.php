@@ -7,11 +7,11 @@ $EM_CONF[$_EXTKEY] = [
 	'author_email' => 'gregor.hermens@a-mazing.de',
 	'author_company' => 'www.a-mazing.de',
 	'state' => 'test',
-	'version' => '0.0.1',
+	'version' => '0.0.2',
 	'constraints' => [
 		'depends' => [
 			'typo3' => '11.5.0-12.99.99',
-			'fluid_styled_content',
+			'fluid_styled_content' => '',
 		],
 		'conflicts' => [
 		],

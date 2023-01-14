@@ -1,6 +1,6 @@
 <?php
 
-namespace Amazing\Bug99534;
+namespace Amazing\Bug99534\Controller;
 
 use Psr\Http\Message\ResponseInterface;
 use TYPO3\CMS\Core\Http\Response;
